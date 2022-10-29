@@ -1,0 +1,55 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.DadosPessoais{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Dados{
+    margin: 0 2rem 1.5rem 0;
+    background-color: rgb(201, 105, 105);
+    padding: .4rem;
+    font-size: 1.3rem;
+    width: 21.875rem;
+    border-radius: 4px;
+}
+
+.PrimeiraLinhaConteudo, .SegundaLinhaConteudo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.Rotina, .Viagens{
+    background-color: rgb(65, 54, 116);
+    width: 21.875rem;
+    padding: 1rem 1rem 2rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    margin-right: 2rem;
+}
+
+.Hobbies, .Bandas{
+    background-color: rgb(130, 230, 84);
+    width: 21.875rem;
+    padding: 1rem 1rem 2rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    margin-right: 2rem;
+}
+
+footer{
+    text-align: center;
+}
