@@ -4,26 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Exercicio De Form</title>
 </head>
 <body>
-    <header>
-        <h1>Cabeçalho</h1>
-    </header>
+    <div>
+        <label for="">Modelo Do Carro</label>
+        <input placeholder="Ex: Fiesta" type="text">
+    </div>
 
-    <main>
-        <div class="Linhas">
-            <div class="Caixa"></div>
-            <div class="Caixa"></div>
-            <div class="Caixa"></div>
-            <div class="Caixa"></div>
-        </div>
+    <div>
+        <label for="">Marca Do Carro</label>
+        <input placeholder="Ex: Ford" type="text">
+    </div>
 
-        <div class="Linhas">
-            <div class="Caixa"></div>
-            <div class="Caixa"></div>
-        </div>
-    </main>
+    <div>
+        <label for="">Ano Do Carro</label>
+        <input placeholder="Ex: 2022" type="text">
+    </div>
+
+    <div>
+        <label for="">Quilometragem Do Carro</label>
+        <input placeholder="Ex: 15000" type="text">
+    </div>
+
+    <div>
+        <label for="EstadoCarros">Estado Do Carro</label>
+    </div>
+
+    <div id="EstadoCarros">
+        <label for="Usado">Usado</label>
+        <input value="Usado" name="EstadoCarro" type="radio">
+
+        <label for="Novo">Novo</label>
+        <input value="Novo" name="EstadoCarro" type="radio">
+    </div>
+
+    <div>
+        <label for="CheckBoxs">Adicionais</label>
+    </div>
+
+    <div class="CheckBoxs">
+        <label for="AirBag">AirBag</label>
+        <input name="AirBag" type="checkbox">
+
+        <label for="Alarme">Alarme</label>
+        <input name="Alarme" type="checkbox">
+
+        <label for="Ar">Ar Condicionado</label>
+        <input name="Ar" type="checkbox">
+    </div>
+
+    <div>
+        <label for="FinaisDePlacas">Final Da Placa</label>
+        <select name="FinaisDePlacas" id="1">
+            <option></option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="9">9</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="">Enviar</label>
+        <input type="submit">
+    </div>
 </body>
 </html>
